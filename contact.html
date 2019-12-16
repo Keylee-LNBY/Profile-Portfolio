@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kelly Lineberry</title>
-
+    <!-- CSS Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="./assets/styles/style.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -16,16 +22,22 @@
 
 <body>
     <header>
-            <nav>
-                <div class="nav-wrapper teal lighten-3">
-                    <a href="#" class="brand-logo">Kelly Lineberry</a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="index.html" class="white-text">About</a></li>
-                    <li><a href="portolio.html" class="white-text">Portfolio</a></li>
-                    <li><a href="contact.html" class="white-text">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
+        <nav>
+            <div class="nav-wrapper">
+                <div class="brand-logo">Kelly Lineberry</div>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <main>
@@ -62,26 +74,24 @@
             </div>
     </main>
 
-    <footer class="page-footer grey lighten-1">
-        <div class="teal lighten-3">
-        </div>
-        <div class="container">
+    <footer class="page-footer blue-grey lighten-3">
+        <div class="container footerLargeDiv">
             <div class="row">
             <div class="col l6 s12">
-                <h5 class="white-text">Resume</h5>
-                <p class="white-text">You can use rows and columns here to organize your footer content.</p>
+                <h5>Resume</h5>
+                <p>You can use rows and columns here to organize your footer content.</p>
             </div>
             <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5>Links</h5>
                 <ul>
-                <li><a class="white-text" href="https://github.com/Keylee-LNBY">GitHub Profile</a></li>
-                <li><a class="white-text" href="#!">LinkedIn Proile</a></li>
+                <li><a class="white-text hoverable" href="https://github.com/Keylee-LNBY">GitHub Profile</a></li>
+                <li><a class="white-text hoverable" href="#!">LinkedIn Proile</a></li>
                 </ul>
             </div>
             </div>
         </div>
-        <div class="footer-copyright teal lighten-3">
-            <div class="container white-text">
+        <div class="footer-copyright cyan darken-4">
+            <div class="container">
             Last Updated December 2019
             </div>
         </div>
@@ -89,6 +99,7 @@
 
     <!-- Scripts -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js">//jQuery Link -- Needs to be imported before materialize.js </script>
-    <script type="text/javascript" src="js/materialize.min.js">//materialize import</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js">//materialize import</script>
+    <script type="text/javascript" src="./assets/js/javaScript.js">//Personal JS file</script>
 </body>
 </html>
