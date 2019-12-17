@@ -24,7 +24,7 @@
         <nav>
             <div class="nav-wrapper">
                 <div class="brand-logo">Kelly Lineberry</div>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons iconColoring">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="index.html">About</a></li>
                     <li><a href="portolio.html">Portfolio</a></li>
@@ -40,133 +40,161 @@
     </header>
 
     <main>
-        <div id="portfolioMain" class="container z-depth-3">
+        <div id="portfolioMain" class="container row z-depth-3">
             <div id="aboutDiv">
                 <h5>Portfolio</h5>
                 <hr>
                 <!-- Cards for Portfolio Links -->
-                <!-- DishOut -->
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="./assets/images/dishout.png">
+                <div class = "row">
+                    <!-- DishOut -->
+                    <div class = "col s12 m6">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./assets/images/dishout.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">DishOut<i class="material-icons right">more_vert</i></span>
+                                <p>
+                                    <a href="https://kacox1251.github.io/DishOut/">Webpage Link to DishOut</a>
+                                    <br>
+                                    <a href="https://github.com/kacox1251/DishOut">GitHub Repository to Dish Out</a>
+                                </p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>DishOut</span>
+                                <p>
+                                    This will help you find 5 recipes to incordorate any ingredient or spirit you have left in fridge or pantry.
+                                    <br>
+                                    Materialize CSS Framework, Third-party, Server-side API's, are used in conjuction with the general HTML, CSS & javaScript to make a more dynamic and cohesive finished product.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">DishOut<i class="material-icons right">more_vert</i></span>
-                        <p>
-                            <a href="https://kacox1251.github.io/DishOut/">Webpage Link to DishOut</a>
-                            <br>
-                            <a href="https://github.com/kacox1251/DishOut">GitHub Repository to Dish Out</a>
-                        </p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>DishOut</span>
-                        <p>
-                            This will help you find 5 recipes to incordorate any ingredient or spirit you have left in fridge or pantry.
-                            <br>
-                            Materialize CSS Framework, Third-party, Server-side API's, are used in conjuction with the general HTML, CSS & javaScript to make a more dynamic and cohesive finished product.
-                        </p>
-                    </div>
-                </div>
-                <!-- Weather Dashbord -->
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/office.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Weather Dashboard<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-                <!-- Day Planner -->
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/office.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Day Planner<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                
+                    <!-- Weather Dashbord -->
+                    <div class = "col s12 m6">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/office.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Weather Dashboard<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- Code Quiz -->
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/office.jpg">
+
+                <div class = "row">
+                    <!-- Day Planner -->
+                    <div class = "col s12 m6">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/office.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Day Planner<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Code Quiz<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-                <!-- Password Generator -->
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/office.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Password Generator<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-                <!-- HTML/CSS Portfolio -->
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/office.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">HTML & CSS Portfolio<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+
+                    <!-- Code Quiz -->
+                    <div class = "col s12 m6">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/office.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Code Quiz<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- Bootstrap Responsive Portfolio -->
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/office.jpg">
+
+                <div class = "row">
+                    <!-- Password Generator -->
+                    <div class = "col s12 m6">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/office.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Password Generator<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Bootstrap Responsive Portfolio<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
+        
+                    <!-- HTML/CSS Portfolio -->
+                    <div class = "col s12 m6">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/office.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">HTML & CSS Portfolio<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+
+                <div class = "row">
+                    <!-- Bootstrap Responsive Portfolio -->
+                    <div class = "col s12 m6">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/office.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Bootstrap Responsive Portfolio<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Card Title</span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div> 
                     </div>
-                </div> 
+                </div>
             </div>
         </div>              
-    </main>
+    </main >
 
-    <footer class="page-footer blue-grey lighten-3">
-        <div class="container footerLargeDiv">
+    <footer class="page-footer teal lighten-3">
+        <div class="container">
             <div class="row">
             <div class="col l6 s12">
                 <h5>Resume</h5>
-                <p>You can use rows and columns here to organize your footer content.</p>
+                <p><a class="white-text hoverable" href="./assets/pdfs/resumeDec2019.pdf">For more on my experience, please click here for a pdf version of my resume.</a></p>
             </div>
             <div class="col l4 offset-l2 s12">
                 <h5>Links</h5>
                 <ul>
                 <li><a class="white-text hoverable" href="https://github.com/Keylee-LNBY">GitHub Profile</a></li>
-                <li><a class="white-text hoverable" href="#!">LinkedIn Proile</a></li>
+                <li><a class="white-text hoverable" href="https://www.linkedin.com/in/kellylineberry/">LinkedIn Proile</a></li>
                 </ul>
             </div>
             </div>
