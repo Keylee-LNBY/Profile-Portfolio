@@ -39,7 +39,11 @@ hr {
 #aboutMain {
     background-color: rgb(193,211,212,.8);
     border: 2px solid #006064;
-    padding-bottom: 5%;
+}
+
+#contactMain {
+    background-color: rgb(0, 96, 100, .6);
+    border: 2px solid rgb(128, 203, 196);
 }
 
 #aboutDiv {
@@ -52,5 +56,27 @@ hr {
     max-width: 35%;
     margin-right: 2%;
     border: 2px solid #006064;
+}
+
+h5 {
+    color: #ffffff;
+    padding-top: 1px;
+}
+
+/* Icons */
+.icon_prefix {
+    background-color: transparent;
+}
+.iconColoring { 
+    color: #ffffff; 
+}
+
+.iconColorTwo {
+    color: #006064;
+}
+
+.hrColorTwo {
+    border: 2px solid rgb(128, 203, 196);
+    margin-bottom: 2%;
 }
 
