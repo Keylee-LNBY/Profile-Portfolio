@@ -23,6 +23,7 @@ main {
 footer {
     color: #ffffff;
     border-top: 2px solid #006064;
+    border-top: #006064;
 }
 
 .inline {
@@ -36,14 +37,20 @@ hr {
 }
 
 /* index.html */
-#aboutMain {
-    background-color: rgb(193,211,212,.8);
+#aboutMain, #portfolioMain {
+    background-color: rgb(128, 203, 196, .5);
     border: 2px solid #006064;
 }
 
 #contactMain {
     background-color: rgb(0, 96, 100, .6);
     border: 2px solid rgb(128, 203, 196);
+}
+
+#contactMain {
+    background-color: rgb(0, 96, 100, .5);
+    border: 2px solid rgb(128, 203, 196);
+    padding-bottom: 5%;
 }
 
 #aboutDiv {
