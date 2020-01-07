@@ -9,7 +9,7 @@ what I learned
 what makes my project stand out
 
 => As more features are added could create a features section
-
+=> want to add a section for resources that I used when building this
 ### Technologies Used
 justify the technologies used 
 
